@@ -1,0 +1,2 @@
+Number knob1 "Knob" {mqtt=">[mosquitto:esp32/sensor:state:*:default]"}
+Number knob2 "Knob" {mqtt=">[mosquitto:esp32/sensor2:state:*:default]"}

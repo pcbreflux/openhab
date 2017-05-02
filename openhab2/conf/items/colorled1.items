@@ -1,0 +1,4 @@
+Color ledrgb1 "RGB Color" 
+String mqRGB1 "RGB String" {mqtt=">[mosquitto:esp32/dev0001/color:command:*:default]"}
+String mqRGB1W "RGB W String" {mqtt="<[mosquitto:esp32/dev0001/color:state:default]", autoupdate="false"}
+

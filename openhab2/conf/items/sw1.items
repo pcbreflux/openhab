@@ -1,0 +1,3 @@
+Switch sw1 "Switch" {mqtt=">[mosquitto:esp32/hello:command:ON:1],>[mosquitto:esp32/hello:command:OFF:0]"}
+
+

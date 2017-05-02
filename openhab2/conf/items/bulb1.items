@@ -1,0 +1,5 @@
+Switch bulb10 "bulb" {mqtt=">[mosquitto:esp32/bulb1/0:command:ON:100],>[mosquitto:esp32/bulb1/0:command:OFF:0],>[mosquitto:esp32/bulb1/0:state:ON:100],>[mosquitto:esp32/bulb1/0:state:OFF:0]"}
+Number bulb10R "bulb" {mqtt="<[mosquitto:esp32/bulb1/0:state:default]"}
+Number bulb10W "bulb" {mqtt=">[mosquitto:esp32/bulb1/0:state:*:default]"}
+Number dim10 "bulb" {mqtt="<[mosquitto:esp32/bulb1/0:state:*],>[mosquitto:esp32/bulb1/0:state:*:default]"}
+
